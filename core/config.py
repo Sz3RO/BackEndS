@@ -1,0 +1,3 @@
+SECRET_KEY = "CPL_FE_03_GR6"   # Đổi sang key thật mạnh
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
