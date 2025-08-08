@@ -7,7 +7,7 @@ router = APIRouter()
 
 @router.post("/login")
 async def login(response: Response, form_data: OAuth2PasswordRequestForm = Depends()):
-    user = await db.users.find_one({"email": form_data.username})
+    user = await db.users.find_one({"$or": [{"email": form_data.username}, {"phone": form_data.username}]})
     if not user or not verify_password(form_data.password, user["password"]):
         raise HTTPException(status_code=401, detail="Email hoặc mật khẩu không đúng")
 
@@ -17,7 +17,7 @@ async def login(response: Response, form_data: OAuth2PasswordRequestForm = Depen
         key="access_token",
         value=token,
         httponly=True,
-        secure=True,     # khi dev có thể tạm bỏ
+        secure=False,     # khi dev có thể tạm bỏ
         samesite="lax"
     )
 

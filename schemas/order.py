@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import List
 from datetime import datetime
 
 class OrderItem(BaseModel):
@@ -8,7 +8,6 @@ class OrderItem(BaseModel):
     price: float
 
 class OrderCreate(BaseModel):
-    # có thể cho phép đặt trực tiếp mà không qua cart
     items: List[OrderItem]
 
 class OrderOut(BaseModel):

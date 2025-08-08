@@ -4,7 +4,9 @@ from typing import Optional
 
 class UserBase(BaseModel):
     email: EmailStr
-    username: str
+    fullname: str
+    phone: str
+    address: str
 
 class UserCreate(UserBase):
     password: str
@@ -15,7 +17,9 @@ class UserOut(UserBase):
     role: str
 
 class UserUpdate(BaseModel):
-    username: Optional[str] = None
+    fullname: Optional[str] = None
+    phone: Optional[str] = None
+    address: Optional[str] = None
 
 class ChangePassword(BaseModel):
     old_password: str

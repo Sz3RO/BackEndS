@@ -16,7 +16,9 @@ async def register(user: UserCreate):
     new_user = {
         "_id": str(uuid.uuid4()),
         "email": user.email,
-        "username": user.username,
+        "fullname": user.fullname,
+        "phone": user.phone,
+        "address": user.address,
         "password": get_password_hash(user.password),
         "created_at": datetime.utcnow()
     }

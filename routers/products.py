@@ -7,7 +7,8 @@ import uuid
 from typing import Optional
 
 router = APIRouter(prefix="/products", tags=["Products"])
-# GET all products
+
+# GET /products/ - Danh sách sản phẩm với filter & tìm kiếm
 @router.get("/", response_model=dict)
 async def get_products(
     q: Optional[str] = Query(None, description="Từ khóa tìm kiếm"),
@@ -22,7 +23,6 @@ async def get_products(
 
     try:
         if q:
-            # Search với Atlas Search
             pipeline = [
                 {
                     "$search": {
@@ -35,7 +35,6 @@ async def get_products(
                 }
             ]
         else:
-            # Filter cơ bản
             filter_query = {}
             if category:
                 filter_query["category"] = category
@@ -50,7 +49,6 @@ async def get_products(
 
             pipeline = [{"$match": filter_query}]
 
-        # Thêm phân trang và sort
         pipeline += [
             {"$sort": {"created_at": -1}},
             {"$skip": skip},
@@ -58,97 +56,50 @@ async def get_products(
         ]
 
         products = await db.products.aggregate(pipeline).to_list(length=limit)
-
-        total = await db.products.count_documents(
-            {} if q else (pipeline[0].get("$match", {}))
-        )
-
-        return {
-            "page": page,
-            "limit": limit,
-            "total": total,
-            "products": [
-                {
-                    "id": str(p["_id"]),
-                    "name": p["name"],
-                    "description": p.get("description"),
-                    "price": p["price"],
-                    "stock": p.get("stock", 0),
-                    "category": p.get("category"),
-                    "image": p.get("image"),
-                    "seller_id": p.get("seller_id"),
-                    "created_at": p["created_at"]
-                }
-                for p in products
-            ]
-        }
+        return {"products": products}
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Lỗi lấy sản phẩm: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
-# GET one product
+# GET /products/{product_id} - Chi tiết sản phẩm
 @router.get("/{product_id}", response_model=ProductOut)
 async def get_product(product_id: str):
     product = await db.products.find_one({"_id": product_id})
     if not product:
-        raise HTTPException(status_code=404, detail="Không tìm thấy sản phẩm")
-    return {
-        "id": str(product["_id"]),
-        "name": product["name"],
-        "description": product.get("description"),
-        "price": product["price"],
-        "stock": product.get("stock", 0),
-        "category": product.get("category"),
-        "image": product.get("image"),   # ✅ trả về image
-        "seller_id": product.get("seller_id"),
-        "created_at": product["created_at"]
-    }
+        raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
+    return product
 
-# CREATE product (seller or admin)
-@router.post("/", response_model=dict)
-async def create_product(data: ProductCreate, current_user: dict = Depends(get_current_user)):
-    if current_user.get("role") not in ["seller", "admin"]:
-        raise HTTPException(status_code=403, detail="Bạn không có quyền đăng sản phẩm")
-
-    new_product = {
-        "_id": str(uuid.uuid4()),
-        "name": data.name,
-        "description": data.description,
-        "price": data.price,
-        "stock": data.stock,
-        "category": data.category,
-        "image": data.image,  # ✅ lưu 1 ảnh
-        "seller_id": str(current_user["_id"]),
-        "created_at": datetime.utcnow()
-    }
+# POST /products - Tạo sản phẩm mới
+@router.post("/", response_model=ProductOut)
+async def create_product(product: ProductCreate, current_user: dict = Depends(get_current_user)):
+    new_product = product.dict()
+    new_product["_id"] = str(uuid.uuid4())
+    new_product["seller_id"] = current_user["_id"]
+    new_product["created_at"] = datetime.utcnow()
     await db.products.insert_one(new_product)
-    return {"message": "Thêm sản phẩm thành công", "id": new_product["_id"]}
+    return new_product
 
-# UPDATE product
-@router.put("/{product_id}")
-async def update_product(product_id: str, data: ProductUpdate, current_user: dict = Depends(get_current_user)):
-    product = await db.products.find_one({"_id": product_id})
-    if not product:
-        raise HTTPException(status_code=404, detail="Không tìm thấy sản phẩm")
+# PUT /products/{product_id} - Cập nhật sản phẩm
+@router.put("/{product_id}", response_model=ProductOut)
+async def update_product(product_id: str, update: ProductUpdate, current_user: dict = Depends(get_current_user)):
+    existing = await db.products.find_one({"_id": product_id})
+    if not existing:
+        raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
+    if existing["seller_id"] != current_user["_id"]:
+        raise HTTPException(status_code=403, detail="Không có quyền cập nhật sản phẩm này")
 
-    if current_user.get("role") != "admin" and product["seller_id"] != str(current_user["_id"]):
-        raise HTTPException(status_code=403, detail="Không có quyền sửa sản phẩm này")
+    update_data = {k: v for k, v in update.dict().items() if v is not None}
+    await db.products.update_one({"_id": product_id}, {"$set": update_data})
+    return {**existing, **update_data}
 
-    update_data = {k: v for k, v in data.dict().items() if v is not None}
-    if update_data:
-        await db.products.update_one({"_id": product_id}, {"$set": update_data})
-
-    return {"message": "Cập nhật sản phẩm thành công"}
-
-# DELETE product
+# DELETE /products/{product_id} - Xoá sản phẩm
 @router.delete("/{product_id}")
 async def delete_product(product_id: str, current_user: dict = Depends(get_current_user)):
     product = await db.products.find_one({"_id": product_id})
     if not product:
-        raise HTTPException(status_code=404, detail="Không tìm thấy sản phẩm")
-
-    if current_user.get("role") != "admin" and product["seller_id"] != str(current_user["_id"]):
-        raise HTTPException(status_code=403, detail="Không có quyền xóa sản phẩm này")
+        raise HTTPException(status_code=404, detail="Sản phẩm không tồn tại")
+    if product["seller_id"] != current_user["_id"]:
+        raise HTTPException(status_code=403, detail="Không có quyền xoá sản phẩm này")
 
     await db.products.delete_one({"_id": product_id})
-    return {"message": "Xóa sản phẩm thành công"}
+    return {"detail": "Đã xoá sản phẩm thành công"}

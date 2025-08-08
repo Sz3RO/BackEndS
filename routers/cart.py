@@ -5,7 +5,7 @@ from db import db
 
 router = APIRouter(prefix="/cart", tags=["Cart"])
 
-# Lấy giỏ hàng hiện tại
+# GET /cart/ - Lấy giỏ hàng hiện tại
 @router.get("/", response_model=CartOut)
 async def get_cart(current_user: dict = Depends(get_current_user)):
     cart = await db.carts.find_one({"user_id": str(current_user["_id"])})
@@ -13,14 +13,13 @@ async def get_cart(current_user: dict = Depends(get_current_user)):
         return {"user_id": str(current_user["_id"]), "items": []}
     return {"user_id": str(current_user["_id"]), "items": cart.get("items", [])}
 
-# Thêm sản phẩm vào giỏ
+# POST /cart/add - Thêm sản phẩm vào giỏ
 @router.post("/add")
 async def add_to_cart(item: CartItem, current_user: dict = Depends(get_current_user)):
     cart = await db.carts.find_one({"user_id": str(current_user["_id"])})
     if not cart:
         cart = {"user_id": str(current_user["_id"]), "items": []}
 
-    # Kiểm tra nếu sản phẩm đã có trong giỏ → cộng dồn số lượng
     for cart_item in cart["items"]:
         if cart_item["product_id"] == item.product_id:
             cart_item["quantity"] += item.quantity
@@ -35,7 +34,7 @@ async def add_to_cart(item: CartItem, current_user: dict = Depends(get_current_u
     )
     return {"message": "Đã thêm sản phẩm vào giỏ hàng"}
 
-# Cập nhật số lượng sản phẩm
+# PUT /cart/update - Cập nhật số lượng sản phẩm trong giỏ
 @router.put("/update")
 async def update_cart(data: CartUpdate, current_user: dict = Depends(get_current_user)):
     cart = await db.carts.find_one({"user_id": str(current_user["_id"])})
@@ -48,16 +47,17 @@ async def update_cart(data: CartUpdate, current_user: dict = Depends(get_current
             item["quantity"] = data.quantity
             updated = True
             break
+
     if not updated:
-        raise HTTPException(status_code=404, detail="Sản phẩm không có trong giỏ")
+        raise HTTPException(status_code=404, detail="Sản phẩm không có trong giỏ hàng")
 
     await db.carts.update_one(
         {"user_id": cart["user_id"]},
         {"$set": {"items": cart["items"]}}
     )
-    return {"message": "Cập nhật số lượng thành công"}
+    return {"message": "Đã cập nhật giỏ hàng"}
 
-# Xóa sản phẩm khỏi giỏ
+# DELETE /cart/remove/{product_id} - Xoá 1 sản phẩm khỏi giỏ
 @router.delete("/remove/{product_id}")
 async def remove_from_cart(product_id: str, current_user: dict = Depends(get_current_user)):
     cart = await db.carts.find_one({"user_id": str(current_user["_id"])})
@@ -71,3 +71,14 @@ async def remove_from_cart(product_id: str, current_user: dict = Depends(get_cur
         {"$set": {"items": cart["items"]}}
     )
     return {"message": "Đã xóa sản phẩm khỏi giỏ hàng"}
+
+# DELETE /cart/clear - Xoá toàn bộ giỏ hàng
+@router.delete("/clear")
+async def clear_cart(current_user: dict = Depends(get_current_user)):
+    result = await db.carts.update_one(
+        {"user_id": str(current_user["_id"])},
+        {"$set": {"items": []}}
+    )
+    if result.modified_count == 0:
+        raise HTTPException(status_code=404, detail="Không tìm thấy giỏ hàng hoặc giỏ hàng đã trống")
+    return {"message": "Đã xoá toàn bộ giỏ hàng"}
