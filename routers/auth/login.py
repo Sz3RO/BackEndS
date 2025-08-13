@@ -10,7 +10,8 @@ async def login(response: Response, form_data: OAuth2PasswordRequestForm = Depen
     user = await db.users.find_one({"$or": [{"email": form_data.username}, {"phone": form_data.username}]})
     if not user or not verify_password(form_data.password, user["password"]):
         raise HTTPException(status_code=401, detail="Email hoặc mật khẩu không đúng")
-
+    if user.get("banned"):
+        raise HTTPException(403, "Tài khoản đã bị chặn bởi admin")
     token = create_access_token(data={"sub": user["email"]})
 
     response.set_cookie(

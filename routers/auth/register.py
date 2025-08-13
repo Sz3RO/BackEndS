@@ -20,7 +20,8 @@ async def register(user: UserCreate):
         "phone": user.phone,
         "address": user.address,
         "password": get_password_hash(user.password),
-        "created_at": datetime.utcnow()
+        "created_at": datetime.utcnow(),
+        "role": "user"
     }
     await db.users.insert_one(new_user)
     return {"message": "Đăng ký thành công"}

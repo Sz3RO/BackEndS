@@ -18,8 +18,11 @@ async def get_current_user(request: Request):
             raise HTTPException(status_code=401, detail="Token không hợp lệ")
     except JWTError:
         raise HTTPException(status_code=401, detail="Token không hợp lệ")
-
+    
     user = await db.users.find_one({"email": email})
     if user is None:
         raise HTTPException(status_code=401, detail="User không tồn tại")
+    if user.get("banned") is True:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Tài khoản đã bị chặn")
+
     return user

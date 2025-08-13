@@ -1,3 +1,4 @@
+# /routers/orders.py
 from fastapi import APIRouter, Depends, HTTPException
 from core.dependencies import get_current_user
 from schemas.order import OrderCreate, OrderOut, OrderItem
@@ -15,61 +16,92 @@ async def list_orders(current_user: dict = Depends(get_current_user)):
         {
             "id": str(o["_id"]),
             "user_id": o["user_id"],
-            "items": o["items"],
+            "items": o["items"],  # mỗi item có product_id, quantity, price, color, size
             "total_price": o["total_price"],
             "status": o["status"],
             "created_at": o["created_at"]
         } for o in orders
     ]
 
-# POST /orders/ - Tạo đơn hàng mới từ giỏ hàng
+# POST /orders/ - Tạo đơn hàng mới từ các item đã tick (frontend chỉ gửi các item được tick)
 @router.post("/", response_model=dict)
-async def create_order(current_user: dict = Depends(get_current_user)):
+async def create_order(payload: OrderCreate, current_user: dict = Depends(get_current_user)):
+    # Các item được tick sẽ được frontend đưa vào payload.items
+    if not payload.items:
+        raise HTTPException(status_code=400, detail="Không có sản phẩm nào được chọn")
+
+    items_to_order: list[OrderItem] = payload.items
+
+    # Tải giỏ của user để có thể loại bỏ đúng các item đã đặt sau khi tạo order
     cart = await db.carts.find_one({"user_id": str(current_user["_id"])})
-    if not cart or not cart.get("items"):
-        raise HTTPException(status_code=400, detail="Giỏ hàng trống")
+    if not cart:
+        # Không bắt buộc phải có cart để đặt (vì có thể đặt từ trang SP), nhưng vẫn nên kiểm tra tồn tại
+        cart = {"items": []}
 
-    items = []
-    total_price = 0
+    order_items = []
+    total_price = 0.0
 
-    # kiểm tra và trừ tồn kho
-    for item in cart["items"]:
-        product = await db.products.find_one({"_id": item["product_id"]})
+    # Duyệt từng item đã tick, validate & trừ tồn
+    for item in items_to_order:
+        product = await db.products.find_one({"_id": item.product_id})
         if not product:
-            raise HTTPException(status_code=404, detail=f"Sản phẩm {item['product_id']} không tồn tại")
+            raise HTTPException(status_code=404, detail=f"Sản phẩm {item.product_id} không tồn tại")
 
-        if product.get("stock", 0) < item["quantity"]:
+        # Lấy giá từ DB để tránh bị thao túng giá từ client
+        unit_price = float(product["price"])
+
+        if product.get("stock", 0) < item.quantity:
             raise HTTPException(
                 status_code=400,
-                detail=f"Sản phẩm '{product['name']}' không đủ hàng (còn {product.get('stock', 0)} cái)"
+                detail=f"Sản phẩm '{product.get('name', item.product_id)}' không đủ hàng (còn {product.get('stock', 0)} cái)"
             )
 
-        items.append({
-            "product_id": item["product_id"],
-            "quantity": item["quantity"],
-            "price": product["price"]
+        # Gom item để lưu vào đơn (đúng schema yêu cầu)
+        order_items.append({
+            "product_id": item.product_id,
+            "quantity": item.quantity,
+            "price": unit_price,
+            "color": item.color,
+            "size": item.size
         })
-        total_price += product["price"] * item["quantity"]
 
-        # trừ kho
+        total_price += unit_price * item.quantity
+
+        # Trừ kho
         await db.products.update_one(
             {"_id": product["_id"]},
-            {"$inc": {"stock": -item["quantity"]}}
+            {"$inc": {"stock": -item.quantity}}
         )
 
-    order = {
+    # Tạo order
+    order_doc = {
         "_id": str(uuid.uuid4()),
         "user_id": str(current_user["_id"]),
-        "items": items,
+        "items": order_items,
         "total_price": total_price,
         "status": "pending",
         "created_at": datetime.utcnow()
     }
 
-    await db.orders.insert_one(order)
-    await db.carts.update_one({"user_id": str(current_user["_id"])}, {"$set": {"items": []}})
+    await db.orders.insert_one(order_doc)
 
-    return {"message": "Đặt hàng thành công", "order_id": order["_id"]}
+    # Loại bỏ đúng các item đã đặt khỏi giỏ hàng (nếu có trong giỏ)
+    # match theo product_id + color + size để tránh xóa nhầm biến thể
+    for it in order_items:
+        await db.carts.update_one(
+            {"user_id": str(current_user["_id"])},
+            {
+                "$pull": {
+                    "items": {
+                        "product_id": it["product_id"],
+                        "color": it["color"],
+                        "size": it["size"]
+                    }
+                }
+            }
+        )
+
+    return {"message": "Đặt hàng thành công", "order_id": order_doc["_id"]}
 
 # GET /orders/{order_id} - Xem chi tiết đơn hàng
 @router.get("/{order_id}", response_model=OrderOut)

@@ -6,6 +6,8 @@ class OrderItem(BaseModel):
     product_id: str
     quantity: int
     price: float
+    color: str
+    size: str
 
 class OrderCreate(BaseModel):
     items: List[OrderItem]
