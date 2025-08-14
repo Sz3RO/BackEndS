@@ -1,3 +1,4 @@
+# schemas/auth.py
 from pydantic import BaseModel, EmailStr
 
 class LoginRequest(BaseModel):
@@ -10,3 +11,7 @@ class ForgotPasswordRequest(BaseModel):
 class ResetPasswordRequest(BaseModel):
     token: str
     new_password: str
+
+class VerifyOtpRequest(BaseModel):
+    email: EmailStr
+    otp: str

@@ -14,7 +14,7 @@ class BaseProduct(BaseModel):
     discount: Optional[float] = Field(None, ge=0, le=100)
     review_count: Optional[int] = Field(None, ge=0)
     images: Optional[List[HttpUrl]] = None
-    desciption: Optional[str] = None
+    description: Optional[str] = None
 class ProductCreate(BaseProduct):
     name: str
     category: str
@@ -27,7 +27,7 @@ class ProductCreate(BaseProduct):
     discount: float
     review_count: int
     images: List[HttpUrl] = Field(default_factory=list)
-    desciption: Optional[str] = None
+    description: Optional[str] = None
 class ProductUpdate(BaseProduct):
     pass
 

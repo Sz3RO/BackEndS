@@ -31,7 +31,6 @@
         "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/465185/item/usgoods_00_465185_3x4.jpg?width=400"
     ]
 },
-
 {
     "name": "Mini T-Shirt",
     "category": "T-Shirt",
@@ -64,7 +63,8 @@
         "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/465760/sub/usgoods_465760_sub7_3x4.jpg?width=400",
         "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/465760/sub/goods_465760_sub14_3x4.jpg?width=400"
     ]
-},{
+},
+{
     "name": "Mini T-Shirt | Raglan Sleeve",
     "category": "T-Shirt",
     "gender": "female",
@@ -2137,4 +2137,1250 @@
         "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474604/sub/usgoods_474604_sub9_3x4.jpg?width=400",
         "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474604/sub/goods_474604_sub14_3x4.jpg?width=400"
     ]
-}]
+},
+
+{
+    "name": "Cargo Denim Pants",
+    "category": "Bottoms",
+    "gender": "male",
+    "price": 899000,
+    "stock": 20,
+    "description": "Stretch denim fabric for a casual look. Drawstrings at the hems allow you to adjust the silhouette. The right-side cargo pocket features an inner pocket. Wide tapered cut with a relaxed feel.",
+    "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+    ],
+    "colors": [
+        "#ccc",
+        "#666",
+        "#000",
+        "#a94442",
+        "#90a955",
+        "#1c2d69"
+    ],
+    "rating": 4.5,
+    "discount": 20,
+    "review_count": 54,
+    "images": [
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479384/item/usgoods_08_479384_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479384/sub/usgoods_479384_sub1_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479384/sub/usgoods_479384_sub5_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/479384/sub/goods_479384_sub14_3x4.jpg?width=400"
+    ]
+},{
+    "name": "AIRism Cotton T-Shirt",
+    "category": "T-Shirt",
+    "gender": "kids",
+    "price": 240000,
+    "stock": 20,
+    "description": "Stay-fresh 'AIRism' fabric with the look of cotton. Features side slits as style accents. The back collar seam is covered with tape for comfort.",
+    "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+    ],
+    "colors": [
+        "#ccc",
+        "#666",
+        "#000",
+        "#a94442",
+        "#90a955",
+        "#1c2d69"
+    ],
+    "rating": 4.7,
+    "discount": 10,
+    "review_count": 254,
+    "images": [
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474592/item/usgoods_00_474592_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474592/sub/usgoods_474592_sub7_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474592/sub/usgoods_474592_sub9_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474592/sub/goods_474592_sub1_3x4.jpg?width=400"
+    ]
+},{
+    "name": "AIRism UV Protection Full Zip Hoodie",
+    "category": "Hoodie",
+    "gender": "kids",
+    "price": 199000,
+    "stock": 20,
+    "description": "Convenient pocketable design. With UV Protection technology. Soft, smooth 'AIRism'. Made with Ultra Stretch fabric. The back collar seam is covered with tape for comfort. ",
+    "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+    ],
+    "colors": [
+        "#ccc",
+        "#666",
+        "#000",
+        "#a94442",
+        "#90a955",
+        "#1c2d69"
+    ],
+    "rating": 4.8,
+    "discount": 10,
+    "review_count": 104,
+    "images": [
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474648/item/usgoods_67_474648_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474648/sub/usgoods_474648_sub7_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474648/sub/usgoods_474648_sub9_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474648/sub/goods_474648_sub11_3x4.jpg?width=400"
+    ]
+},
+{
+    "name": "AIRism UV Protection Full Zip Hoodie | Printed",
+    "category": "Hoodie",
+    "gender": "kids",
+    "price": 199000,
+    "stock": 20,
+    "description": "Convenient pocketable design. With UV Protection technology. Soft, smooth 'AIRism'.Made with Ultra Stretch fabric. The back collar seam is covered with tape for comfort.",
+    "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+    ],
+    "colors": [
+        "#ccc",
+        "#666",
+        "#000",
+        "#a94442",
+        "#90a955",
+        "#1c2d69"
+    ],
+    "rating": 4.4,
+    "discount": 20,
+    "review_count": 94,
+    "images": [
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474651/item/usgoods_61_474651_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474651/sub/usgoods_474651_sub7_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474651/sub/usgoods_474651_sub9_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474651/sub/goods_474651_sub11_3x4.jpg?width=400"
+    ]
+},
+{
+    "name": "STUDIO GHIBLI Sweatshirt | My Neighbor Totoro",
+    "category": "Hoodie",
+    "gender": "kids",
+    "price": 299000,
+    "stock": 20,
+    "description": "Convenient pocketable design. With UV Protection technology. Soft, smooth 'AIRism'.Made with Ultra Stretch fabric. The back collar seam is covered with tape for comfort.",
+    "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+    ],
+    "colors": [
+        "#ccc",
+        "#666",
+        "#000",
+        "#a94442",
+        "#90a955",
+        "#1c2d69"
+    ],
+    "rating": 4.6,
+    "discount": 10,
+    "review_count": 94,
+    "images": [
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480347/item/usgoods_01_480347_3x4.jpg?width=200",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480347/sub/usgoods_480347_sub7_3x4.jpg?width=200",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480347/sub/goods_480347_sub17_3x4.jpg?width=200",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480347/sub/goods_480347_sub19_3x4.jpg?width=200"
+    ]
+},
+{
+    "name": "Ultra Stretch Graphic Sweatshirt",
+    "category": "Hoodie",
+    "gender": "kids",
+    "price": 299000,
+    "stock": 20,
+    "description": "Ultra Stretch fabric for comfort and easy movement. Soft and stretchy ribbing at the hem, cuffs, and collar. The back collar seam is covered with tape for comfort.",
+    "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+    ],
+    "colors": [
+        "#ccc",
+        "#666",
+        "#000",
+        "#a94442",
+        "#90a955",
+        "#1c2d69"
+    ],
+    "rating": 4.7,
+    "discount": 10,
+    "review_count": 104,
+    "images": [
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474838/item/usgoods_03_474838_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474838/sub/usgoods_474838_sub7_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474838/sub/goods_474838_sub14_3x4.jpg?width=400",
+        "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474838/sub/usgoods_474838_sub9_3x4.jpg?width=400"
+    ]
+},
+
+
+  {
+    "name": "Denim Jumper Dress",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 450000,
+    "stock": 20,
+    "description": "Classic denim jumper dress, easy to layer; adjustable shoulder straps, two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 0,
+    "discount": 12,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478204/item/usgoods_65_478204_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478204/sub/usgoods_478204_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478204/sub/usgoods_478204_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/478204/sub/goods_478204_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Camisole Dress | Gingham",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 300000,
+    "stock": 20,
+    "description": "Light and breathable seersucker fabric; wide adjustable straps, two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 5.0,
+    "discount": 11,
+    "review_count": 6,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474718/item/usgoods_35_474718_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474718/sub/usgoods_474718_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474718/sub/usgoods_474718_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474718/sub/goods_474718_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Printed Tiered Dress",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 280000,
+    "stock": 20,
+    "description": "Soft, smooth rayon-nylon blend with printed pattern; lightweight tiered silhouette; two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 5.0,
+    "discount": 14,
+    "review_count": 2,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/477606/item/usgoods_01_477606_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/477606/sub/usgoods_477606_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/477606/sub/usgoods_477606_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/477606/sub/goods_477606_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Embroidered Sleeveless Dress",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 349000,
+    "stock": 20,
+    "description": "100% cotton embroidered fabric, easy-wear elastic neckline; lined, with two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 5.0,
+    "discount": 13,
+    "review_count": 3,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474732/item/usgoods_10_474732_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474732/sub/usgoods_474732_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474732/sub/usgoods_474732_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474732/sub/goods_474732_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Camisole Dress | Color Block",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 460000,
+    "stock": 20,
+    "description": "Wrinkled cotton for cool comfort; gathered bodice, adjustable straps; lined, with two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 5.0,
+    "discount": 10,
+    "review_count": 3,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474717/item/usgoods_40_474717_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474717/sub/usgoods_474717_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474717/sub/usgoods_474717_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474717/sub/goods_474717_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Camisole Dress | Shirred",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 300000,
+    "stock": 20,
+    "description": "Cool-textured shirred fabric; elastic bodice with wide straps; two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 4.0,
+    "discount": 15,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474719/item/usgoods_12_474719_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474719/sub/usgoods_474719_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474719/sub/usgoods_474719_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474719/sub/goods_474719_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Checked Dress",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 600000,
+    "stock": 20,
+    "description": "Statement collar, knee-length fit in smooth rayon fabric; two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 0,
+    "discount": 14,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478205/item/usgoods_18_478205_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478205/sub/usgoods_478205_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/478205/sub/goods_478205_sub14_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/478205/sub/goods_478205_sub15_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Checked Tiered Dress",
+    "category": "Dresses",
+    "gender": "kids",
+    "price": 550000,
+    "stock": 20,
+    "description": "Soft brushed fabric with tiered flare and bell sleeves; elastic back neckline; two side pockets.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["#ccc", "#666", "#000", "#a94442", "#90a955", "#1c2d69"],
+    "rating": 0,
+    "discount": 11,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481492/item/usgoods_24_481492_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481492/sub/usgoods_481492_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481492/sub/goods_481492_sub14_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481492/sub/goods_481492_sub15_3x4.jpg?width=600"
+    ]
+  },
+
+  
+  {
+    "name": "AIRism UV Protection Full Zip Hoodie",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 372500,
+    "stock": 20,
+    "description": "Lightweight AIRism full-zip hoodie with UPF50+ UV protection and ultra-stretch comfort.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 12,
+    "review_count": 12,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474648/item/usgoods_67_474648_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474648/item/usgoods_67_474648_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474648/item/usgoods_67_474648_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/474648/item/eugoods_67_474648_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "AIRism UV Protection Full Zip Hoodie | Printed",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 372500,
+    "stock": 20,
+    "description": "Breathable AIRism full-zip hoodie with playful prints, UPF50+ sun coverage, and pocketable design.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 11,
+    "review_count": 14,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474651/item/usgoods_61_474651_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474651/item/usgoods_61_474651_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474651/item/usgoods_61_474651_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/474651/item/eugoods_61_474651_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "DRY Sweat Stadium Jacket",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 997500,
+    "stock": 20,
+    "description": "Sporty stadium-style jacket in quick-dry DRY fabric with Ultra Stretch for easy movement.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 14,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481378/item/usgoods_38_481378_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481378/item/usgoods_38_481378_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481378/item/usgoods_38_481378_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/481378/item/eugoods_38_481378_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "DRY Sweat Full-Zip Jacket | Striped",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 747500,
+    "stock": 20,
+    "description": "Striped full-zip jacket with DRY technology and stretch for breathable everyday comfort.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 10,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478134/item/usgoods_09_478134_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478134/item/usgoods_09_478134_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478134/item/usgoods_09_478134_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/478134/item/eugoods_09_478134_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "DRY Sweat Full-Zip Jacket",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 747500,
+    "stock": 20,
+    "description": "Everyday full-zip made with DRY, quick-drying fabric and comfy stretch; easy to layer.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 13,
+    "review_count": 2,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480974/item/usgoods_02_480974_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480974/item/usgoods_02_480974_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480974/item/usgoods_02_480974_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/480974/item/eugoods_02_480974_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Pocketable UV Protection Parka | Color Block",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 997500,
+    "stock": 20,
+    "description": "Color-block pocketable parka with water-repellent finish and UV Protection technology.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 15,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480861/item/usgoods_09_480861_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480861/item/usgoods_09_480861_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480861/item/usgoods_09_480861_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/480861/item/eugoods_09_480861_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "PUFFTECH Washable Parka",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Light, warm PUFFTECH parka with removable hood and water-repellent finish; machine-washable.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 12,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478123/item/usgoods_61_478123_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478123/item/usgoods_61_478123_3x4.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478123/item/usgoods_61_478123_3x4.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/478123/item/eugoods_61_478123_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "PUFFTECH Washable Parka | Warm Padded",
+    "category": "Outerwear",
+    "gender": "kids",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Warm padded PUFFTECH parka with airy ball-shaped filling and removable hood; water-repellent.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.6,
+    "discount": 11,
+    "review_count": 90,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478124/item/usgoods_16_478124_3x4.jpg?width=400",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478124/sub/usgoods_478124_sub7_3x4.jpg?width=400",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478124/sub/usgoods_478124_sub9_3x4.jpg?width=400",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/478124/sub/goods_478124_sub14_3x4.jpg?width=400"
+    ]
+  },
+
+
+  {
+    "name": "Washable Milano Ribbed Sweater",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Crisp, lightweight Milano rib knit that’s machine-washable. Relaxed silhouette for easy layering.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 14,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481443/item/usgoods_01_481443_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481443/item/usgoods_69_481443_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481443/sub/usgoods_481443_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481443/feature/usgoods_481443_feature1.jpg"
+    ]
+  },
+  {
+    "name": "Washable Milano Ribbed Sweater | Striped",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Machine-washable Milano rib with bold stripes. Lightweight and comfy for everyday wear.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 12,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481483/item/usgoods_01_481483_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481483/item/usgoods_69_481483_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481483/sub/usgoods_481483_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/481483/sub/usgoods_481483_sub7_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Washable Ribbed Knit Cardigan",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 372500,
+    "stock": 20,
+    "description": "Smooth cotton-modal cardigan with random rib texture. Machine-washable and easy care.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 11,
+    "review_count": 3,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474811/item/usgoods_40_474811_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474811/item/usgoods_01_474811_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474811/sub/usgoods_474811_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474811/feature/usgoods_474811_feature1.jpg"
+    ]
+  },
+  {
+    "name": "Souffle Yarn Sweater | Striped",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Soft, non-itchy Souffle Yarn with brushed finish. Wide stripes and a rounded, easy fit.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 10,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480864/item/usgoods_09_480864_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480864/item/usgoods_11_480864_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480864/sub/usgoods_480864_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480864/sub/usgoods_480864_sub7_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Souffle Yarn Sweater | Argyle",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Argyle pattern in Souffle Yarn for warmth with a soft, non-itchy touch. Hand-washable.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 13,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480863/item/usgoods_03_480863_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480863/item/usgoods_69_480863_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480863/sub/usgoods_480863_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480863/sub/usgoods_480863_sub7_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Souffle Yarn Polo Sweater",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Compact polo-neck sweater in Souffle Yarn. Ribbed body, flat-knit sleeves; soft and cozy feel.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 15,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480087/item/usgoods_40_480087_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480087/item/usgoods_12_480087_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480087/sub/usgoods_480087_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480087/sub/usgoods_480087_sub7_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Souffle Yarn Cardigan",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 747500,
+    "stock": 20,
+    "description": "Souffle Yarn cardigan with a compact silhouette and classic cable details. Soft, non-itchy feel.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 10,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478173/item/usgoods_01_478173_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478173/item/usgoods_10_478173_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478173/sub/usgoods_478173_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478173/sub/usgoods_478173_sub7_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Souffle Yarn Sweater",
+    "category": "Sweaters",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Everyday crew neck in Souffle Yarn. Lightweight warmth with a smooth, non-itchy texture.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 12,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478142/item/usgoods_01_478142_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478142/item/usgoods_32_478142_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478142/feature/usgoods_478142_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478142/feature/usgoods_478142_feature2.jpg"
+    ]
+  },
+
+
+  {
+    "name": "Rugger Polo Shirt | Striped",
+    "category": "Shirts & Blouses",
+    "gender": "kids",
+    "price": 497500,
+    "stock": 20,
+    "description": "Striped rugger polo in thick cotton with a soft jersey collar. Relaxed, easy-to-move fit.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 12,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480328/item/usgoods_30_480328_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480328/sub/usgoods_480328_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/480328/sub/usgoods_480328_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480328/sub/goods_480328_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Flannel Checked Shirt",
+    "category": "Shirts & Blouses",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Brushed 100% cotton flannel with a soft, cozy feel. Regular fit for layering or solo wear.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 14,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478132/item/usgoods_09_478132_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478132/sub/usgoods_478132_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478132/sub/usgoods_478132_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/478132/sub/goods_478132_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Flannel Checked Shirt",
+    "category": "Shirts & Blouses",
+    "gender": "kids",
+    "price": 622500,
+    "stock": 20,
+    "description": "Block-check flannel in breathable cotton, brushed both sides for comfort and warmth.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 10,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482995/item/usgoods_16_482995_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482995/sub/usgoods_482995_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/482995/sub/usgoods_482995_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/482995/sub/goods_482995_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "DRY Pique Embroidered Polo Shirt",
+    "category": "Shirts & Blouses",
+    "gender": "kids",
+    "price": 197500,
+    "stock": 20,
+    "description": "Quick-dry DRY pique polo with chest embroidery and shape-retaining knit for daily wear.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 11,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474645/item/usgoods_00_474645_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474645/sub/usgoods_474645_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474645/sub/usgoods_474645_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474645/sub/goods_474645_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Open Collar Shirt | Short Sleeve",
+    "category": "Shirts & Blouses",
+    "gender": "kids",
+    "price": 147500,
+    "stock": 20,
+    "description": "Relaxed short-sleeve open-collar shirt in slub cotton with back tucks for extra ease.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 5.0,
+    "discount": 15,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474930/item/usgoods_56_474930_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474930/sub/usgoods_474930_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474930/sub/usgoods_474930_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474930/sub/goods_474930_sub15_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "DRY Pique Color Block Polo Shirt",
+    "category": "Shirts & Blouses",
+    "gender": "kids",
+    "price": 197500,
+    "stock": 20,
+    "description": "Color-blocked DRY pique polo with breathable knit and durable shape retention for active kids.",
+    "sizes": ["XS","S","M","L"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 0,
+    "discount": 13,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474644/item/usgoods_68_474644_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474644/sub/usgoods_474644_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474644/sub/usgoods_474644_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/474644/sub/goods_474644_sub14_3x4.jpg?width=600"
+    ]
+  },
+
+  {
+    "name": "Zip-Up Short Blouson",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 1997500,
+    "stock": 20,
+    "description": "Modern short blouson with a relaxed silhouette and corduroy trim details for everyday layering.",
+    "sizes": ["XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.6,
+    "discount": 12,
+    "review_count": 6,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478230/item/usgoods_57_478230_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478230/sub/usgoods_478230_sub1_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478230/sub/usgoods_478230_sub5_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478230/feature/usgoods_478230_feature1.jpg"
+    ]
+  },
+  {
+    "name": "Zip-Up Blouson Jacket",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Workwear-inspired zip-up blouson in a crisp cotton blend with a short, easy-to-layer length.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.7,
+    "discount": 11,
+    "review_count": 123,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475681/item/usgoods_32_475681_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475681/sub/usgoods_475681_sub1_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475681/feature/usgoods_475681_feature6.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475681/sub/goods_475681_sub14_3x4.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Utility Short Blouson Jacket",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 997500,
+    "stock": 20,
+    "description": "Utility short blouson with chest and waist pockets, relaxed cut, and cozy corduroy accents.",
+    "sizes": ["XS","S","M","L","XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.8,
+    "discount": 13,
+    "review_count": 236,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/470117/item/usgoods_57_470117_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/470117/sub/usgoods_470117_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/470117/sub/usgoods_470117_sub9_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/470117/feature/usgoods_470117_feature6.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Ultra Stretch Shirt Jacket",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 747500,
+    "stock": 20,
+    "description": "High-stretch nylon jersey shirt jacket with a water-repellent finish and practical pockets.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.8,
+    "discount": 10,
+    "review_count": 54,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478923/item/usgoods_32_478923_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478923/sub/usgoods_478923_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478923/feature/usgoods_478923_feature1.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478923/feature/usgoods_478923_feature2.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Pocketable UV Protection Parka",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Light, portable parka with UPF50+ UV Protection and a water-repellent finish; packs into a pouch.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.8,
+    "discount": 15,
+    "review_count": 41,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469292/item/usgoods_69_469292_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469292/sub/usgoods_469292_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469292/feature/usgoods_469292_feature6.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469292/feature/usgoods_469292_feature7.jpg?width=600"
+    ]
+  },
+  {
+    "name": "BLOCKTECH Parka | 3D Cut",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 1997500,
+    "stock": 20,
+    "description": "Water-resistant, windproof parka with breathable comfort and 3D cut shoulders for easy movement.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.4,
+    "discount": 12,
+    "review_count": 55,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/464024/item/usgoods_31_464024_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/464024/sub/usgoods_464024_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/464024/feature/usgoods_464024_feature6.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/464024/feature/usgoods_464024_feature7.jpg?width=600"
+    ]
+  },
+  {
+    "name": "Windproof Parka",
+    "category": "Outerwear",
+    "gender": "male",
+    "price": 1997500,
+    "stock": 20,
+    "description": "Windproof laminated fabric with water-repellent finish and a relaxed, easy-to-layer fit.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.8,
+    "discount": 10,
+    "review_count": 170,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478231/item/usgoods_68_478231_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478231/sub/usgoods_478231_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478231/feature/usgoods_478231_feature1.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478231/feature/usgoods_478231_feature2.jpg?width=600"
+    ]
+  },
+  {
+    "name": "AirSense Blazer | Wool-Like",
+    "category": "Blazers",
+    "gender": "male",
+    "price": 1497500,
+    "stock": 20,
+    "description": "Lightweight, stretchy wool-like blazer developed with Toray—DRY technology and machine-washable.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL","3XL"],
+    "colors": ["#ccc","#666","#000","#a94442","#90a955","#1c2d69"],
+    "rating": 4.4,
+    "discount": 14,
+    "review_count": 96,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448034/item/usgoods_05_448034_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448034/sub/usgoods_448034_sub7_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448034/feature/usgoods_448034_feature1.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/448034/feature/usgoods_448034_feature2.jpg?width=600"
+    ]
+  },
+
+  
+  {
+    "name": "Zip-Up Short Jacket",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1747500,
+    "stock": 20,
+    "description": "Vintage-inspired short barn jacket with a corduroy collar and roomy utility pockets in a relaxed silhouette.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#333","#cdb699","#6b8e23","#0b2545"],
+    "rating": 4.7,
+    "discount": 12,
+    "review_count": 50,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479208/item/usgoods_56_479208_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479208/feature/usgoods_479208_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479208/feature/usgoods_479208_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479208/feature/usgoods_479208_feature3.jpg"
+    ]
+  },
+  {
+    "name": "AIRism Soft Jacket",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Lightweight AIRism jacket with smooth Ultra Stretch comfort and quick-drying DRY tech for breathable layering.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#111","#1c2d69","#8b4513","#f5f5f5"],
+    "rating": 4.6,
+    "discount": 10,
+    "review_count": 40,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475336/item/goods_09_475336_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474964/feature/usgoods_474964_feature6.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474964/feature/usgoods_474964_feature7.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474964/feature/usgoods_474964_feature8.jpg"
+    ]
+  },
+  {
+    "name": "Milano Ribbed Knitted Jacket",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Crisp Milano rib knit holds its shape; a polished short layer that styles like a cardigan or light jacket.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#000","#5a3e2b","#335c81"],
+    "rating": 5.0,
+    "discount": 14,
+    "review_count": 1,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479775/feature/usgoods_479775_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479775/feature/usgoods_479775_feature1.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479775/feature/usgoods_479775_feature1.jpg?width=1200",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479775/feature/usgoods_479775_feature1.jpg?width=1600"
+    ]
+  },
+  {
+    "name": "Coated Oversized Blouson | Faux Leather",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 2247500,
+    "stock": 20,
+    "description": "Matte faux-leather blouson with a stand collar and cocoon silhouette. Lined for comfort with sleek modern styling.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#000"],
+    "rating": 0,
+    "discount": 15,
+    "review_count": 0,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479196/item/usgoods_09_479196_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479196/feature/usgoods_479196_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479196/feature/usgoods_479196_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479196/feature/usgoods_479196_feature3.jpg"
+    ]
+  },
+  {
+    "name": "Ultra Stretch AIRism Full-Zip Jacket",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "High-neck AIRism layer in Ultra Stretch fabric with DRY technology, UV protection, and thumbhole cuffs for coverage.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#000","#555","#999"],
+    "rating": 4.7,
+    "discount": 11,
+    "review_count": 68,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475336/item/goods_09_475336_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475336/feature/usgoods_475336_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475336/feature/usgoods_475336_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475336/feature/usgoods_475336_feature3.jpg"
+    ]
+  },
+  {
+    "name": "Fluffy Yarn Fleece Full-Zip Jacket",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 997500,
+    "stock": 20,
+    "description": "Soft, warm long-pile fleece with a cozy stand collar. Easy care and perfect for casual layering.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#f5efe6","#111","#e9967a","#8b4513","#154734","#1c2d69"],
+    "rating": 4.7,
+    "discount": 13,
+    "review_count": 500,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/449753/item/usgoods_30_449753_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/449753/feature/usgoods_449753_feature6.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/449753/feature/usgoods_449753_feature7.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/449753/feature/usgoods_449753_feature8.jpg"
+    ]
+  },
+  {
+    "name": "Knitted Short Jacket (OFF WHITE)",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Textured knit jacket with a clean, collarless design and polished buttons for a refined finish.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#ffffff","#365d9c"],
+    "rating": 4.7,
+    "discount": 13,
+    "review_count": 28,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/item/usgoods_01_474981_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981001/feature/usgoods_474981001_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/feature/usgoods_474981_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/feature/usgoods_474981_feature1.jpg?width=900"
+    ]
+  },
+  {
+    "name": "Knitted Short Jacket (BLACK)",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Crisp knit structure keeps a neat shape; versatile short length pairs with trousers or skirts.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#000"],
+    "rating": 4.7,
+    "discount": 10,
+    "review_count": 28,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/item/usgoods_09_474981_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/feature/usgoods_474981_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/feature/usgoods_474981_feature1.jpg?width=900",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474981/feature/usgoods_474981_feature1.jpg?width=1200"
+    ]
+  },
+  {
+    "name": "Jersey Relaxed Jacket",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1497500,
+    "stock": 20,
+    "description": "Throw-on relaxed jersey jacket; machine-washable with easy drape and oversized fit that layers effortlessly.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#2e8b57","#000","#f5f5dc","#87cefa"],
+    "rating": 4.5,
+    "discount": 12,
+    "review_count": 60,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469775/item/usgoods_52_469775_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469775/feature/usgoods_469775_feature6.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469775/feature/usgoods_469775_feature7.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469775/feature/usgoods_469775_feature6.jpg?width=900"
+    ]
+  },
+  {
+    "name": "Knitted Short Jacket | Printed",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Printed knit jacket with a refined collarless silhouette and large buttons for an elegant impression.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#222","#cccccc"],
+    "rating": 4.6,
+    "discount": 11,
+    "review_count": 18,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478329001/item/usgoods_99_478329001_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478329001/feature/usgoods_478329001_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478329001/feature/usgoods_478329001_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478329001/feature/usgoods_478329001_feature1.jpg?width=900"
+    ]
+  },
+  {
+    "name": "Pocketable UV Protection Parka",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Lightweight, packable parka with UPF50+ UV protection and water-repellent finish for everyday on-the-go wear.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#ff324f","#000","#e6e6e6","#0b2545","#2f6f4f"],
+    "rating": 4.6,
+    "discount": 11,
+    "review_count": 72,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474175/item/usgoods_15_474175_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474175/feature/usgoods_474175_feature6.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474175/feature/usgoods_474175_feature7.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/474175/feature/usgoods_474175_feature8.jpg"
+    ]
+  },
+  {
+    "name": "Cotton Blend Short Parka",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1747500,
+    "stock": 20,
+    "description": "Short cotton-blend parka with water-repellent finish and adjustable hem for a rounded, balloon-sleeve silhouette.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#2f4f4f","#c2b280","#000"],
+    "rating": 5.0,
+    "discount": 13,
+    "review_count": 3,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479229/item/usgoods_33_479229_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479229/feature/usgoods_479229_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479229/feature/usgoods_479229_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479229/feature/usgoods_479229_feature3.jpg"
+    ]
+  },
+  {
+    "name": "DRY Sweat Full-Zip Hoodie",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1247500,
+    "stock": 20,
+    "description": "Loose, short zip hoodie in smooth DRY sweat fabric with easy movement and casual everyday comfort.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#000","#f5f5dc","#8b4513","#1c2d69"],
+    "rating": 4.5,
+    "discount": 10,
+    "review_count": 35,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479603/item/usgoods_69_479603_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479603/feature/usgoods_479603_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479603/feature/usgoods_479603_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479603/feature/usgoods_479603_feature3.jpg"
+    ]
+  },
+  {
+    "name": "BLOCKTECH Parka",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 2247500,
+    "stock": 20,
+    "description": "Three-layer ripstop that’s windproof, breathable, and water-repellent with an elegant A-line silhouette.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#808080","#000","#722f37","#e3c8a8"],
+    "rating": 4.3,
+    "discount": 12,
+    "review_count": 21,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479962/item/usgoods_09_479962_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479962/feature/usgoods_479962_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479962/feature/usgoods_479962_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479962/feature/usgoods_479962_feature3.jpg"
+    ]
+  },
+  {
+    "name": "PUFFTECH Compact Vest",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1497500,
+    "stock": 20,
+    "description": "Compact insulated vest with high-performance PUFFTECH padding; water-repellent and quick-drying with anti-static lining.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#ffd1dc","#000","#f5deb3","#1c2d69"],
+    "rating": 4.4,
+    "discount": 10,
+    "review_count": 40,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469863/item/usgoods_10_469863_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469863/feature/usgoods_469863_feature6.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469863/feature/usgoods_469863_feature7.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469863/feature/usgoods_469863_feature8.jpg"
+    ]
+  },
+  {
+    "name": "PUFFTECH Cropped Vest",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1497500,
+    "stock": 20,
+    "description": "Cropped PUFFTECH vest with V-quilt pattern; roomy armholes for easy layering and a sporty look.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#ff7f11","#556b2f","#f8f8f8","#000000"],
+    "rating": 4.6,
+    "discount": 14,
+    "review_count": 15,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479210/item/usgoods_27_479210_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479210/feature/usgoods_479210_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479210/feature/usgoods_479210_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479210/feature/usgoods_479210_feature3.jpg"
+    ]
+  },
+  {
+    "name": "PUFFTECH Vest",
+    "category": "Outerwear",
+    "gender": "female",
+    "price": 1497500,
+    "stock": 20,
+    "description": "Lightweight, warm vest with anti-static lining and included pouch; water-repellent finish for daily wear.",
+    "sizes": ["XXS","XS","S","M","L","XL","XXL"],
+    "colors": ["#ffffff","#808080","#000000","#4169e1","#7b68ee"],
+    "rating": 4.5,
+    "discount": 12,
+    "review_count": 52,
+    "images": [
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478573/item/usgoods_01_478573_3x4.jpg?width=600",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478573/feature/usgoods_478573_feature1.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478573/feature/usgoods_478573_feature2.jpg",
+      "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/478573/feature/usgoods_478573_feature3.jpg"
+    ]
+  }
+
+
+]
